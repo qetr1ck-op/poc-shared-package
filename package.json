@@ -7,7 +7,7 @@
   "types": "dist/index.d.js",
   "scripts": {
     "start": "tsc",
-    "publish": "tsc && npx np"
+    "publish": "npx np"
   },
   "keywords": [],
   "author": "",

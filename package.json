@@ -6,7 +6,8 @@
   "main": "dist/index.js",
   "types": "dist/index.d.js",
   "scripts": {
-    "start": "tsc"
+    "start": "tsc",
+    "publish": "tsc && npx np"
   },
   "keywords": [],
   "author": "",

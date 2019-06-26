@@ -19,7 +19,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var react_1 = __importDefault(require("react"));
 var react_router_dom_1 = require("react-router-dom");
 var semantic_ui_react_1 = require("semantic-ui-react");
-require("./breadcrumbs.style.less");
 var TSCBreadcrumbs = /** @class */ (function (_super) {
     __extends(TSCBreadcrumbs, _super);
     function TSCBreadcrumbs() {

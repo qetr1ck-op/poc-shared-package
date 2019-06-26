@@ -1,5 +1,4 @@
 import React from 'react';
-import './breadcrumbs.style.less';
 interface SectionProps {
     to?: string;
     active?: boolean;

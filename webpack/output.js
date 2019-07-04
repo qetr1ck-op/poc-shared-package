@@ -3,7 +3,7 @@ const { paths, ifProduction } = require('./utils');
 const output = {
   path: paths.dist,
   filename: ifProduction('[name].[contenthash].bundle.js', '[name].js'),
-  publicPath: '', // TODO: to config
+  libraryTarget: 'umd'
 };
 
 module.exports = { output };

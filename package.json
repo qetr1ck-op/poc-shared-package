@@ -4,7 +4,7 @@
   "private": true,
   "description": "",
   "main": "dist/index.js",
-  "types": "dist/index.d.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "npm run build:dev && npm run build:types",
     "build:dev": "cross-env NODE_ENV=development webpack",

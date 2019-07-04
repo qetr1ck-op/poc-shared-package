@@ -1,7 +1,7 @@
 const { paths, ifProduction } = require('./utils');
 
 const output = {
-  path: paths.build,
+  path: paths.dist,
   filename: ifProduction('[name].[contenthash].bundle.js', '[name].js'),
   publicPath: '', // TODO: to config
 };

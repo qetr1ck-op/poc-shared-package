@@ -16,9 +16,9 @@ const appDirectory = fs.realpathSync(process.cwd());
 const resolvePath = (relativePath) => path.resolve(appDirectory, relativePath);
 const paths = {
   root: resolvePath('.'),
-  wwwRoot: path.join('app/', 'build/'),
-  build: resolvePath('build'),
-  buildHtml: resolvePath('build/index.html'),
+  wwwRoot: path.join('app/', 'dist/'),
+  dist: resolvePath('dist'),
+  buildHtml: resolvePath('dist/index.html'),
   public: resolvePath('public'),
   publicHtml: resolvePath('public/index.html'),
   appSrc: resolvePath('src'),

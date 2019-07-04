@@ -12,9 +12,6 @@ module.exports = () => {
     resolve,
     devtool,
     stats,
-    optimization: {
-      splitChunks,
-    },
     module: {
       rules: getLoaders(),
     },

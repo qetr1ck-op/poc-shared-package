@@ -57,7 +57,7 @@
 /******/ 	// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 	// Promise = chunk loading, 0 = chunk loaded
 /******/ 	var installedChunks = {
-/******/ 		"main": 0
+/******/ 		"index": 0
 /******/ 	};
 /******/
 /******/ 	var deferredModules = [];
@@ -347,4 +347,4 @@ module.exports = __webpack_require__(/*! ./src/index.ts */"./src/index.ts");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.js.map
+//# sourceMappingURL=index.js.map

@@ -1,5 +1,5 @@
 const inputs = {
-  main: ['./src/index.ts'],
+  index: ['./src/index.ts'],
 };
 
 module.exports = { inputs };

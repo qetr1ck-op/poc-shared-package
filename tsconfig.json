@@ -18,7 +18,7 @@
     "noEmitHelpers": true, // disable emitting inline helper functions
     "jsx": "react", // process JSX
     "lib": ["dom", "es2018"],
-    "target": "es2015", // "es2015" for ES6+ enginesf
+    "target": "es5", // "es2015" for ES6+ enginesf
     "module": "commonjs", // "es2015" for tree-shaking
     "moduleResolution": "node",
     "noEmitOnError": true,

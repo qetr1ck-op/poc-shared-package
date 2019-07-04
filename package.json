@@ -50,7 +50,8 @@
     "styled-components": "^3.4.10",
     "webpackbar": "^3.2.0",
     "cross-env": "^5.2.0",
-    "core-js": "2.6.9"
+    "core-js": "2.6.9",
+    "tslib": "^1.10.0"
   },
   "keywords": [],
   "author": "",

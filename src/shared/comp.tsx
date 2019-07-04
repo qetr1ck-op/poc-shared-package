@@ -1,30 +1,10 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { Breadcrumb } from 'semantic-ui-react';
+import React from "react";
 
-import './comp.style.less';
+import "./comp.style.less";
 
-interface SectionProps {
-  to?: string;
-  active?: boolean;
+export interface Props {
+  fooProp: string;
 }
-
-export class TSCBreadcrumbs extends React.PureComponent {
-  static Section: React.FC<SectionProps> = ({ to, active, children }) => {
-    if (active) {
-      return <Breadcrumb.Section active>{children}</Breadcrumb.Section>;
-    }
-
-    return (
-      <Breadcrumb.Section link as={Link} to={to}>
-        {children}
-      </Breadcrumb.Section>
-    );
-  };
-
-  static Divider = () => <Breadcrumb.Divider icon="right chevron" />;
-
-  render() {
-    return <Breadcrumb size="small">{this.props.children}</Breadcrumb>;
-  }
-}
+export const FooComp: React.FC<Props> = ({ fooProp }) => (
+  <div className="bg">{fooProp.toLocaleUpperCase()}</div>
+);

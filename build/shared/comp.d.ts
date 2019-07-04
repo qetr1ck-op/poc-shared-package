@@ -1,4 +1,5 @@
 import React from 'react';
+import './comp.style.less';
 interface SectionProps {
     to?: string;
     active?: boolean;

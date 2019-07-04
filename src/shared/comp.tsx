@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Breadcrumb } from 'semantic-ui-react';
 
-// import './breadcrumbs.style.less';
+import './comp.style.less';
 
 interface SectionProps {
   to?: string;

@@ -6,7 +6,7 @@
       "@root/*": ["src/*"] // will enable -> import { ... } from '@src/service|component',
       // in webpack you need to add -> resolve: { alias: { '@src': PATH_TO_SRC } }
     },
-    "outDir": "build/", // target for compiled files
+    "outDir": "dist/", // target for compiled files
     "noEmit": false,
     "allowSyntheticDefaultImports": true, // no errors with commonjs modules interop
     "esModuleInterop": true,

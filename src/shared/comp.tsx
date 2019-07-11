@@ -8,7 +8,7 @@ export interface Props {
 }
 export const FooComp: React.FC<Props> = ({ fooProp }) => (
   <div className="bg">{fooProp.toLocaleUpperCase()}</div>
-);
+)
 
 export const ButtonExampleLoading = () => (
   <div>
@@ -21,6 +21,8 @@ export const ButtonExampleLoading = () => (
     </Button>
     <Button loading secondary>
       Loading
-    </Button>
+        </Button>
   </div>
 );
+
+

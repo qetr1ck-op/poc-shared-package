@@ -1,6 +1,6 @@
+import { ButtonExampleLoading, FooComp } from "./shared/comp";
 import { sharedValue } from "./shared/shared";
-import { FooComp } from "./shared/comp";
 
 const innerValue = "innerValue";
 
-export {innerValue, sharedValue, FooComp}
+export {innerValue, sharedValue, FooComp, ButtonExampleLoading};

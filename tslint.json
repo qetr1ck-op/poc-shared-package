@@ -1,0 +1,42 @@
+{
+  "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+  "linterOptions": {
+    "exclude": ["config/**/*.js", "node_modules/**/*.ts", "coverage/*.js"]
+  },
+  "rules": {
+    "jsx-boolean-value": false,
+    "member-access": [true, "no-public"],
+    "object-literal-sort-keys": false,
+    "ordered-imports": [
+      true,
+      {
+        "import-sources-order": "case-insensitive",
+        "named-imports-order": "case-insensitive",
+        "grouped-imports": true
+      }
+    ],
+    "interface-name": [true, "never-prefix"],
+    "jsx-no-lambda": false,
+    "no-shadowed-variable": false,
+    "max-classes-per-file": false,
+    "no-empty": false,
+    "callable-types": false,
+    "semicolon": [true, "always", "ignore-bound-class-methods"],
+    "member-ordering": [
+      true,
+      {
+        "order": [
+          "private-static-field",
+          "public-static-field",
+          "private-instance-field",
+          "public-instance-field",
+          "public-constructor",
+          "public-instance-method",
+          "private-constructor",
+          "protected-instance-method",
+          "private-instance-method"
+        ]
+      }
+    ]
+  }
+}

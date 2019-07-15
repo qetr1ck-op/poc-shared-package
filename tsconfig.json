@@ -33,7 +33,7 @@
     "removeComments": true,
     "sourceMap": true
   },
-  "include": ["src/**/*", "src/static/typing/**/*"],
+  "include": ["src/**/*"],
   "exclude": [
     "node_modules",
     "build",

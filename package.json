@@ -42,7 +42,7 @@
     "@babel/preset-env": "^7.3.1",
     "@babel/preset-react": "^7.0.0",
     "@babel/preset-typescript": "^7.3.3",
-    "@svgr/webpack": "^4.2.0",
+    "@svgr/webpack": "^4.3.2",
     "@types/classnames": "^2.2.7",
     "@types/react": "^16.8.22",
     "@types/react-dom": "^16.8.0",
@@ -51,6 +51,7 @@
     "@types/react-router-dom": "^4.3.4",
     "@types/storybook__react": "^4.0.2",
     "babel-loader": "^8.0.5",
+    "tsc-cloud-style-guide": "git+ssh://git@github.com/techsmith/tsc-cloud-style-guide.git#13.6.5",
     "circular-dependency-plugin": "^5.0.2",
     "clean-webpack-plugin": "^3.0.0",
     "core-js": "2.6.9",
@@ -79,7 +80,11 @@
     "webpackbar": "^3.2.0",
     "@storybook/react": "^5.1.9",
     "@storybook/addon-actions": "^5.1.9",
-    "react-docgen-typescript-loader": "^3.1.0"
+    "@storybook/addon-knobs": "^5.1.9",
+    "@storybook/addon-info": "^5.1.9",
+    "react-docgen-typescript-loader": "^3.1.0",
+    "storybook-react-router": "^1.0.5",
+    "react-responsive": "^7.0.0"
   },
   "husky": {
     "hooks": {
